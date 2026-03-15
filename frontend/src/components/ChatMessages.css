@@ -26,8 +26,13 @@
 }
 
 .chat-message--bot .chat-message-text {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  padding: 0.6rem 1rem;
+  border-radius: 16px 16px 16px 4px;
   color: var(--text-muted);
   margin: 0 0 0.5rem;
+  max-width: 85%;
 }
 
 .chat-message-text {

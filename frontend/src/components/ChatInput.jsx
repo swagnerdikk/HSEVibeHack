@@ -18,7 +18,7 @@ export default function ChatInput({ onSend }) {
         <input
           type="text"
           className="chat-input"
-          placeholder="Введите текст"
+          placeholder="Напиши дайджест ближайших мероприятий"
           value={value}
           onChange={(e) => setValue(e.target.value)}
           aria-label="Сообщение"
