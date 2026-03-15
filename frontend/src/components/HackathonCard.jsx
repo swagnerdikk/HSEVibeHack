@@ -43,7 +43,7 @@ export default function HackathonCard({ hackathon }) {
           Добавить в календарь
         </a>
         {hackathon.url && (
-          <a href={hackathon.url} target="_blank" rel="noopener noreferrer" className="hackathon-card-link">
+          <a href={hackathon.url} target="_blank" rel="noopener noreferrer" className="hackathon-card-site-btn">
             Сайт
           </a>
         )}

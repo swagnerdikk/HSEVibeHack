@@ -55,11 +55,21 @@
   color: var(--bg);
 }
 
-.hackathon-card-link {
-  font-size: 0.9rem;
-  color: var(--text-muted);
+.hackathon-card-site-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem 0.75rem;
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity 0.2s;
 }
 
-.hackathon-card-link:hover {
-  color: var(--text);
+.hackathon-card-site-btn:hover {
+  opacity: 0.9;
+  color: var(--bg);
 }
